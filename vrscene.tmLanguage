@@ -49,11 +49,85 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>operator {} and ()</string>
+			<string>Numbers</string>
 			<key>match</key>
-			<string>\{|\}|\(|\)</string>
+			<string>\b[\+\-]?\d*\.?\d+(?:[Ee][\+\-]?\d+)?\b</string>
 			<key>name</key>
-			<string>string.quoted.single.vrscene</string>
+			<string>constant.numeric.vrscene</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>End of statement</string>
+			<key>name</key>
+			<string>punctuation.terminator.statement.vrscene</string>
+			<key>match<key</key>
+			<string>;</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Arguments seperator</string>
+			<key>name</key>
+			<string>punctuation.separator.comma.vrscene</string>
+			<key>match</key>
+			<string>,</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Arithmetic operations</string>
+			<key>name</key>
+			<string>keyword.operator.arithmetic.vrscene</string>
+			<key>match</key>
+			<string>[+-/*]</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>assignment operator</string>
+			<key>name</key>
+			<string>keyword.operator.assignment.vrscene</string>
+			<key>match</key>
+			<string>=</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>brackets</string>
+			<key>name</key>
+			<string>punctuation.definition.vrscene</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>comment</key>
+					<string>Paramter brackets</string>
+					<key>match</key>
+					<string>\(</string>
+					<key>name</key>
+					<string>punctuation.definition.begin.parameters.vrscene</string>
+				</dict>
+				<dict>
+					<key>comment</key>
+					<string>Paramter brackets</string>
+					<key>match</key>
+					<string>\)</string>
+					<key>name</key>
+					<string>punctuation.definition.end.parameters.vrscene</string>
+				</dict>
+				<dict>
+					<key>comment</key>
+					<string>Block brackets</string>
+					<key>match</key>
+					<string>\{</string>
+					<key>name</key>
+					<string>punctuation.definition.begin.block.vrscene</string>
+				</dict>
+				<dict>
+					<key>comment</key>
+					<string>Block brackets</string>
+					<key>match</key>
+					<string>\}</string>
+					<key>name</key>
+					<string>punctuation.definition.end.block.vrscene</string>
+				</dict>
+			</array>
+		</dict>
 		</dict>
 		<dict>
 			<key>comment</key>
