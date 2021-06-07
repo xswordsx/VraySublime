@@ -45,7 +45,7 @@
 				</dict>
 			</array>
 			<key>name</key>
-			<string>variable.parameter.vrscene</string>
+			<string>string.quoted.double.vrscene</string>
 		</dict>
 		<dict>
 			<key>comment</key>
