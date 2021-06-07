@@ -8,6 +8,18 @@
 	</array>
 	<key>name</key>
 	<string>vrscene</string>
+	<key>repository</key>
+	<dict>
+		<key>escape-chars</key>
+		<dict>
+			<key>comment</key>
+			<string>Escaped characters</string>
+			<key>match</key>
+			<string>\\.</string>
+			<key>name</key>
+			<string>constant.character.escape.vrscene</string>
+		</dict>
+	</dict>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -25,6 +37,13 @@
 			<string>operator ""</string>
 			<key>end</key>
 			<string>\"</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#escape-chars</string>
+				</dict>
+			</array>
 			<key>name</key>
 			<string>variable.parameter.vrscene</string>
 		</dict>
