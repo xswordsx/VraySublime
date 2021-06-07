@@ -46,7 +46,7 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>fonction name</string>
+			<string>function name</string>
 			<key>match</key>
 			<string>\b(cos|cross|length|noise|pi|pow|random|sin|sqr|sqrt|time|uniform)\b</string>
 			<key>name</key>
