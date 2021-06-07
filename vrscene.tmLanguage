@@ -135,7 +135,7 @@
 			<key>match</key>
 			<string>\@</string>
 			<key>name</key>
-			<string>string.quoted.single.vrscene</string>
+			<string>punctuation.separator.at-sign.vrscene</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -151,7 +151,7 @@
 			<key>match</key>
 			<string>\b(AColor|Color|ListIntHex|ListColor|ListColorHex|ListFloat|ListString|ListInt|ListVectorHex|ListVector|Matrix|TransformHex|Transform|Vector|interpolate|List)\b</string>
 			<key>name</key>
-			<string>storage.type.vrscene</string>
+			<string>support.class.builtin.vrscene</string>
 		</dict>
 		<dict>
 			<key>comment</key>
